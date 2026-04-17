@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zion Tech</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background: #111;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px;
+            background: #f4f4f4;
+        }
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Zion Tech</h1>
+    <p>Learn Web Development & UI/UX Design</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Build Your Career with Zion Tech</h2>
+    <p>Hands-on training in Web Development and UI/UX Design</p>
+</section>
+
+<section id="courses" class="courses">
+    <div class="card">
+        <h3>HTML & CSS</h3>
+        <p>Learn the basics of web design.</p>
+    </div>
+    <div class="card">
+        <h3>JavaScript</h3>
+        <p>Make your websites interactive.</p>
+    </div>
+    <div class="card">
+        <h3>UI/UX Design</h3>
+        <p>Design beautiful user experiences.</p>
+    </div>
+    <div class="card">
+        <h3>React</h3>
+        <p>Build modern web applications.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Zion Tech | Training Platform</p>
+</footer>
+
+</body>
+</html>
